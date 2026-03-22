@@ -1,0 +1,802 @@
+{
+  "test_case_results": [
+    {
+      "test_case_id": "RJSCP69UB1_TEST_1",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of at least two HTML list items, and the Initial Months List, Days List and Emojis List should be rendered using a unique key as a prop to display each month item, day item and emoji item respectively",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_2",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of an HTML main heading element with text content as \"Daily Mood Tracker\" in the header",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_3",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of at least three HTML unordered list elements to display the list of emoji items, day items and date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_4",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of at least forty three HTML list elements to display the emoji items, day items and date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_5",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of at least thirty six HTML button elements each inside an HTML list item to display the emoji items and date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_6",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of at least seven HTML paragraph elements each inside an HTML list item to display the day items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_7",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of an HTML main heading element with text content as \"January\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_8",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of an HTML paragraph elements with text content as the values of the key \"day\" from the \"daysList\" provided",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_9",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of an HTML paragraph elements with text content as the values of the key \"date\" from the \"initialMonthsList\" provided",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_10",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of an HTML paragraph elements with text content as the values of the key \"emojiName\" from the Emojis List provided",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_11",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of an HTML image elements with alt attribute value as the values of the key \"emojiName\" and src as the values of the key \"emojiUrl\" from the Emojis List provided",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_12",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of two HTML select elements which contains Emoji names and Days as options",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_13",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of Emoji names HTML select element and it contains of HTML option elements with text content as the value of the key \"emojiName\" from the Emojis List provided",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_14",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of Days HTML select element and it consists of HTML option elements with text content as the values of the key \"day\" from the Days List provided",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_15",
+      "evaluation_result": "CORRECT",
+      "title": "Initially when the Home Route is opened, the \"Very Happy\" emoji should be displayed as active emoji",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_16",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Happy\" emoji is clicked in the Home Route, then it should be displayed as active emoji",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_17",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Neutral\" emoji is clicked in the Home Route, then it should be displayed as active emoji",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_18",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Sad\" emoji is clicked in the Home Route, then it should be displayed as active emoji",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_19",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Very Sad\" emoji is clicked in the Home Route, then it should be displayed as active emoji",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_20",
+      "evaluation_result": "CORRECT",
+      "title": "When few date items are clicked in the Home Route, then the active emoji image will be displayed in the date items and the emoji image elements with alt attribute value as the values of the key \"date\" from the Initial Months List provided",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_21",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Very Happy\" emoji item is active in the Home Route and a few date items are clicked then the \"Very Happy\" emoji image will be displayed in the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_22",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Happy\" emoji item is active in the Home Route and a few date items are clicked then the \"Happy\" emoji image will be displayed in the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_23",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Neutral\" emoji item is active in the Home Route and a few date items are clicked then the \"Neutral\" emoji image will be displayed in the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_24",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Sad\" emoji item is active in the Home Route and a few date items are clicked then the \"Sad\" emoji image will be displayed in the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_25",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Very Sad\" emoji item is active in the Home Route and a few date items are clicked then the \"Very Sad\" emoji image will be displayed in the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_26",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Very Happy\" emoji item is active in the Home Route and a few date items are clicked then the \"Very Happy\" emoji image will be displayed in the date items. If a new emoji item is activated and clicked on the same date items then the previous images should be updated with the new emoji images",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_27",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Happy\" emoji item is active in the Home Route and a few date items are clicked then the \"Happy\" emoji image will be displayed in the date items. If a new emoji item is activated and clicked on the same date items then the previous images should be updated with the new emoji images",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_28",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Neutral\" emoji item is active in the Home Route and a few date items are clicked then the \"Neutral\" emoji image will be displayed in the date items. If a new emoji item is activated and clicked on the same date items then the previous images should be updated with the new emoji images",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_29",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Sad\" emoji item is active in the Home Route and a few date items are clicked then the \"Sad\" emoji image will be displayed in the date items. If a new emoji item is activated and clicked on the same date items then the previous images should be updated with the new emoji images",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_30",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Very Sad\" emoji item is active in the Home Route and a few date items are clicked then the \"Very Sad\" emoji image will be displayed in the date items. If a new emoji item is activated and clicked on the same date items then the previous images should be updated with the new emoji images",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_31",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Very Happy\" emoji item is active in the Home Route and a few date items are clicked then the \"Very Happy\" emoji image will be displayed in the date items and again if the same date items are clicked then the emoji images should be removed from the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_32",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Happy\" emoji item is active in the Home Route and a few date items are clicked then the \"Happy\" emoji image will be displayed in the date items and again if the same date items are clicked then the emoji images should be removed from the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_33",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Neutral\" emoji item is active in the Home Route and a few date items are clicked then the \"Neutral\" emoji image will be displayed in the date items and again if the same date items are clicked then the emoji images should be removed from the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_34",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Sad\" emoji item is active in the Home Route and a few date items are clicked then the \"Sad\" emoji image will be displayed in the date items and again if the same date items are clicked then the emoji images should be removed from the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_35",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Very Sad\" emoji item is active in the Home Route and a few date items are clicked then the \"Very Sad\" emoji image will be displayed in the date items and again if the same date items are clicked then the emoji images should be removed from the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_36",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Very Happy\" emoji item is active in the Home Route and a few \"Sun\" day date items are clicked, then the filter count should be displayed according to the \"Very Happy\" emoji name and \"sun\" day filter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_37",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Very Happy\" emoji item is active in the Home Route and a few \"Thu\" day date items are clicked, then the filter count should be displayed according to the \"Very Happy\" emoji name and \"Thu\" day filter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_38",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Happy\" emoji item is active in the Home Route and a few \"Mon\" day date items are clicked, then the filter count should be displayed according to the \"Happy\" emoji name and \"Mon\" day filter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_39",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Happy\" emoji item is active in the Home Route and a few \"Wed\" day date items are clicked, then the filter count should be displayed according to the \"Happy\" emoji name and \"Wed\" day filter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_40",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Neutral\" emoji item is active in the Home Route and a few \"Sat\" day date items are clicked, then the filter count should be displayed according to the \"Neutral\" emoji name and \"Sat\" day filter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_41",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Sad\" emoji item is active in the Home Route and a few \"Fri\" day date items are clicked, then the filter count should be displayed according to the \"Sad\" emoji name and \"Fri\" day filter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_42",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Very Sad\" emoji item is active in the Home Route and a few \"Tue\" day date items are clicked, then the filter count should be displayed according to the \"Very Sad\" emoji name and \"Tue\" day filter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_43",
+      "evaluation_result": "CORRECT",
+      "title": "When the Home Route is opened, an HTML button element with data-testid attribute value as \"previous-button\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_44",
+      "evaluation_result": "CORRECT",
+      "title": "When the Home Route is opened, an HTML button element with data-testid attribute value as \"next-button\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_45",
+      "evaluation_result": "CORRECT",
+      "title": "When the next month button is clicked in the Home Route, then the \"February\" month should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_46",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Happy\" emoji is clicked in the Home Route, then it should be displayed as active emoji",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_47",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Neutral\" emoji is clicked in the Home Route, then it should be displayed as active emoji",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_48",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Sad\" emoji is clicked in the Home Route, then it should be displayed as active emoji",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_49",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Very Sad\" emoji is clicked in the Home Route, then it should be displayed as active emoji",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_50",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and few date items are clicked in the Home Route, then the active emoji image will be displayed in the date items and the emoji image elements with alt attribute value as the values of the key \"date\" from the Initial Months List provided",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_51",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Very Happy\" emoji item is active in the Home Route and a few date items are clicked then the \"Very Happy\" emoji image will be displayed in the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_52",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Happy\" emoji item is active in the Home Route and a few date items are clicked then the \"Happy\" emoji image will be displayed in the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_53",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Neutral\" emoji item is active in the Home Route and a few date items are clicked then the \"Neutral\" emoji image will be displayed in the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_54",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Sad\" emoji item is active in the Home Route and a few date items are clicked then the \"Sad\" emoji image will be displayed in the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_55",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Very Sad\" emoji item is active in the Home Route and a few date items are clicked then the \"Very Sad\" emoji image will be displayed in the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_56",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Very Happy\" emoji item is active in the Home Route and a few date items are clicked then the \"Very Happy\" emoji image will be displayed in the date items. If a new emoji item is activated and clicked on the same date items then the previous images should be updated with the new emoji images",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_57",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Happy\" emoji item is active in the Home Route and a few date items are clicked then the \"Happy\" emoji image will be displayed in the date items. If a new emoji item is activated and clicked on the same date items then the previous images should be updated with the new emoji images",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_58",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Neutral\" emoji item is active in the Home Route and a few date items are clicked then the \"Neutral\" emoji image will be displayed in the date items. If a new emoji item is activated and clicked on the same date items then the previous images should be updated with the new emoji images",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_59",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Sad\" emoji item is active in the Home Route and a few date items are clicked then the \"Sad\" emoji image will be displayed in the date items. If a new emoji item is activated and clicked on the same date items then the previous images should be updated with the new emoji images",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_60",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Very Sad\" emoji item is active in the Home Route and a few date items are clicked then the \"Very Sad\" emoji image will be displayed in the date items. If a new emoji item is activated and clicked on the same date items then the previous images should be updated with the new emoji images",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_61",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Very Happy\" emoji item is active in the Home Route and a few date items are clicked then the \"Very Happy\" emoji image will be displayed in the date items and again if the same date items are clicked then the emoji images should be removed from the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_62",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Happy\" emoji item is active in the Home Route and a few date items are clicked then the \"Happy\" emoji image will be displayed in the date items and again if the same date items are clicked then the emoji images should be removed from the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_63",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Neutral\" emoji item is active in the Home Route and a few date items are clicked then the \"Neutral\" emoji image will be displayed in the date items and again if the same date items are clicked then the emoji images should be removed from the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_64",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Sad\" emoji item is active in the Home Route and a few date items are clicked then the \"Sad\" emoji image will be displayed in the date items and again if the same date items are clicked then the emoji images should be removed from the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_65",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Very Sad\" emoji item is active in the Home Route and a few date items are clicked then the \"Very Sad\" emoji image will be displayed in the date items and again if the same date items are clicked then the emoji images should be removed from the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_66",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Very Happy\" emoji item is active in the Home Route and a few \"Sun\" day date items are clicked, then the filter count should be displayed according to the \"Very Happy\" emoji name and \"sun\" day filter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_67",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Very Happy\" emoji item is active in the Home Route and a few \"Thu\" day date items are clicked, then the filter count should be displayed according to the \"Very Happy\" emoji name and \"Thu\" day filter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_68",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Happy\" emoji item is active in the Home Route and a few \"Mon\" day date items are clicked, then the filter count should be displayed according to the \"Happy\" emoji name and \"Mon\" day filter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_69",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Happy\" emoji item is active in the Home Route and a few \"Wed\" day date items are clicked, then the filter count should be displayed according to the \"Happy\" emoji name and \"Wed\" day filter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_70",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Neutral\" emoji item is active in the Home Route and a few \"Sat\" day date items are clicked, then the filter count should be displayed according to the \"Neutral\" emoji name and \"Sat\" day filter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_71",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Sad\" emoji item is active in the Home Route and a few \"Fri\" day date items are clicked, then the filter count should be displayed according to the \"Sad\" emoji name and \"Fri\" day filter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_72",
+      "evaluation_result": "CORRECT",
+      "title": "When the february month is displayed and the \"Very Sad\" emoji item is active in the Home Route and a few \"Tue\" day date items are clicked, then the filter count should be displayed according to the \"Very Sad\" emoji name and \"Tue\" day filter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_73",
+      "evaluation_result": "CORRECT",
+      "title": "When the Home Route is opened, and the december month is displayed, an HTML button element with data-testid attribute value as \"previous-button\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_74",
+      "evaluation_result": "CORRECT",
+      "title": "When the Home Route is opened, and the december month is displayed and \"previous-button\" is clicked then the \"November\" month should be displayed\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_75",
+      "evaluation_result": "CORRECT",
+      "title": "When the Home Route is opened, and the december month is displayed, an HTML button element with data-testid attribute value as \"next-button\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_76",
+      "evaluation_result": "CORRECT",
+      "title": "When the Home Route is opened, and the 11 times next month button is clicked in the page, then the \"December\" month should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_77",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Happy\" emoji is clicked in the page, then it should be displayed as active emoji",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_78",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Neutral\" emoji is clicked in the page, then it should be displayed as active emoji",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_79",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Sad\" emoji is clicked in the page, then it should be displayed as active emoji",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_80",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Very Sad\" emoji is clicked in the page, then it should be displayed as active emoji",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_81",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and few date items are clicked in the page, then the active emoji image will be displayed in the date items and the emoji image elements with alt attribute value as the values of the key \"date\" from the Initial Months List provided",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_82",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Very Happy\" emoji item is active in the page and a few date items are clicked then the \"Very Happy\" emoji image will be displayed in the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_83",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Happy\" emoji item is active in the page and a few date items are clicked then the \"Happy\" emoji image will be displayed in the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_84",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Neutral\" emoji item is active in the page and a few date items are clicked then the \"Neutral\" emoji image will be displayed in the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_85",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Sad\" emoji item is active in the page and a few date items are clicked then the \"Sad\" emoji image will be displayed in the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_86",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Very Sad\" emoji item is active in the page and a few date items are clicked then the \"Very Sad\" emoji image will be displayed in the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_87",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Very Happy\" emoji item is active and a few date items are clicked then the \"Very Happy\" emoji image will be displayed in the date items. If a new emoji item is activated and clicked on the same date items then the previous images should be updated with the new emoji images",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_88",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Happy\" emoji item is active and a few date items are clicked then the \"Happy\" emoji image will be displayed in the date items. If a new emoji item is activated and clicked on the same date items then the previous images should be updated with the new emoji images",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_89",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Neutral\" emoji item is active and a few date items are clicked then the \"Neutral\" emoji image will be displayed in the date items. If a new emoji item is activated and clicked on the same date items then the previous images should be updated with the new emoji images",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_90",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Sad\" emoji item is active and a few date items are clicked then the \"Sad\" emoji image will be displayed in the date items. If a new emoji item is activated and clicked on the same date items then the previous images should be updated with the new emoji images",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_91",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Very Sad\" emoji item is active and a few date items are clicked then the \"Very Sad\" emoji image will be displayed in the date items. If a new emoji item is activated and clicked on the same date items then the previous images should be updated with the new emoji images",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_92",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Very Happy\" emoji item is active and a few date items are clicked then the \"Very Happy\" emoji image will be displayed in the date items and again if the same date items are clicked then the emoji images should be removed from the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_93",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Happy\" emoji item is active and a few date items are clicked then the \"Happy\" emoji image will be displayed in the date items and again if the same date items are clicked then the emoji images should be removed from the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_94",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Neutral\" emoji item is active and a few date items are clicked then the \"Neutral\" emoji image will be displayed in the date items and again if the same date items are clicked then the emoji images should be removed from the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_95",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Sad\" emoji item is active and a few date items are clicked then the \"Sad\" emoji image will be displayed in the date items and again if the same date items are clicked then the emoji images should be removed from the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_96",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Very Sad\" emoji item is active and a few date items are clicked then the \"Very Sad\" emoji image will be displayed in the date items and again if the same date items are clicked then the emoji images should be removed from the date items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_97",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Very Happy\" emoji item is active and a few \"Sun\" day date items are clicked, then the filter count should be displayed according to the \"Very Happy\" emoji name and \"sun\" day filter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_98",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Very Happy\" emoji item is active and a few \"Thu\" day date items are clicked, then the filter count should be displayed according to the \"Very Happy\" emoji name and \"Thu\" day filter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_99",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Happy\" emoji item is active and a few \"Mon\" day date items are clicked, then the filter count should be displayed according to the \"Happy\" emoji name and \"Mon\" day filter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_100",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Happy\" emoji item is active and a few \"Wed\" day date items are clicked, then the filter count should be displayed according to the \"Happy\" emoji name and \"Wed\" day filter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_101",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Neutral\" emoji item is active and a few \"Sat\" day date items are clicked, then the filter count should be displayed according to the \"Neutral\" emoji name and \"Sat\" day filter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_102",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Sad\" emoji item is active and a few \"Fri\" day date items are clicked, then the filter count should be displayed according to the \"Sad\" emoji name and \"Fri\" day filter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_103",
+      "evaluation_result": "CORRECT",
+      "title": "When the december month is displayed in the Home Route and the \"Very Sad\" emoji item is active and a few \"Tue\" day date items are clicked, then the filter count should be displayed according to the \"Very Sad\" emoji name and \"Tue\" day filter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_122",
+      "evaluation_result": "CORRECT",
+      "title": "When \"/\" is provided as the URL path by an unauthenticated user, then the page should be navigated to the Login Route",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_123",
+      "evaluation_result": "CORRECT",
+      "title": "When \"/\" is provided as the URL path by an authenticated user, then the page should be navigated to the Reports Route and should consist of an HTML paragraph element with text content as \"Overall Emojis Reports\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_124",
+      "evaluation_result": "CORRECT",
+      "title": "Reports Route should consist of an HTML button element with text content as \"Logout\" in the Header",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_125",
+      "evaluation_result": "CORRECT",
+      "title": "Reports Route should consist of a Link from react-router-dom with text content as \"Home\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_126",
+      "evaluation_result": "CORRECT",
+      "title": "Reports Route should consist of a Link from react-router-dom with text content as \"Reports\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_127",
+      "evaluation_result": "CORRECT",
+      "title": "Reports Route should consist of all 5 emojis as cards",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_128",
+      "evaluation_result": "CORRECT",
+      "title": "Reports Route should consist of an HTML heading element with text content as \"Overall Emojis Reports\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_129",
+      "evaluation_result": "CORRECT",
+      "title": "In the Home Route, after 4 date items have been selected in January and the Reports Route is accessed, then the page should display an HTML paragraph element containing the text \"4\" within the \"Very Happy\" emoji card",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_130",
+      "evaluation_result": "CORRECT",
+      "title": "In the Home Route, after 4 date items have been selected in January and another 4 in December and the Reports Route is accessed, then the page should display an HTML paragraph element containing the text \"8\" within the \"Very Happy\" emoji card",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_131",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Very Sad\" emoji item is active in the Home Route and after 4 date items have been selected in January and the Reports Route is accessed, then the page should display an HTML paragraph element containing the text \"4\" within the \"Very Sad\" emoji card",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_132",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Very Sad\" emoji item is active in the Home Route and after 4 date items have been selected in January and another 4 in December and the Reports Route is accessed, then the page should display an HTML paragraph element containing the text \"8\" within the \"Very Sad\" emoji card",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_133",
+      "evaluation_result": "CORRECT",
+      "title": "When the Reports Route is opened, then the page should consist of a Bar chart to represent the month-specific selected emojis data in graph format",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_104",
+      "evaluation_result": "CORRECT",
+      "title": "When \"/login\" is provided as the URL by an unauthenticated user, then the page should be navigated to Login Route and should consist of an HTML button element with text content as \"Login\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_105",
+      "evaluation_result": "CORRECT",
+      "title": "When \"/login\" is provided as the URL by an authenticated user, then the page should be navigated to Home Route and should consist of an HTML heading element with text content as \"Daily Mood Tracker\" in the header",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_106",
+      "evaluation_result": "CORRECT",
+      "title": "Login Route should consist of an HTML form element",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_107",
+      "evaluation_result": "CORRECT",
+      "title": "Login Route should consist of an HTML image element with text content value as \"Daily Mood Tracker\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_108",
+      "evaluation_result": "CORRECT",
+      "title": "Login Route should consist of an HTML input element with label text as \"USERNAME\" and type attribute value as \"text\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_109",
+      "evaluation_result": "CORRECT",
+      "title": "Login Route should consist of an HTML input element with label text as \"PASSWORD\" and type attribute value as \"password\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_110",
+      "evaluation_result": "CORRECT",
+      "title": "Login Route should consist of an HTML input element with label text as \"Show Password\" and type attribute value as \"checkbox\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_111",
+      "evaluation_result": "CORRECT",
+      "title": "Login Route should consist of an HTML button element with text content as \"Login\" and type attribute value as \"submit\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_112",
+      "evaluation_result": "CORRECT",
+      "title": "When a non-empty value is provided in the HTML input element with the label text as \"USERNAME\", then the value provided should be displayed in the HTML input element",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_113",
+      "evaluation_result": "CORRECT",
+      "title": "When a non-empty value is provided in the HTML input element with the label text as \"PASSWORD\", then the value provided should be displayed in the HTML input element",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_114",
+      "evaluation_result": "CORRECT",
+      "title": "When \"Show Password\" is checked, then the type of the HTML input element with label text as \"PASSWORD\" should be \"text\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_115",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Show Password\" is unchecked after being checked, then then the type of the input element with label text as \"PASSWORD\" should be \"password\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_116",
+      "evaluation_result": "CORRECT",
+      "title": "When non-empty values are provided for username and password input and the Login button is clicked, an HTTP POST request should be made to loginApiUrl",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_117",
+      "evaluation_result": "CORRECT",
+      "title": "When non-empty values are provided for username and password input and the Login button is clicked, then an HTTP POST request should be made to loginApiUrl with request object containing the keys \"username\" and \"password\" with the values provided respectively",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_118",
+      "evaluation_result": "CORRECT",
+      "title": "When an invalid username and password are provided, then the page should consist of an HTML paragraph element with text content as respective error message and the page should not be navigated",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_119",
+      "evaluation_result": "CORRECT",
+      "title": "When a valid username and password are provided and the Login button is clicked, then the Cookies.set() method should be called with three arguments - \"jwt_token\" string as the first argument, JWT token value as the second argument, and expiry days as the third argument",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_120",
+      "evaluation_result": "CORRECT",
+      "title": "When a valid username and password are provided and the Login button is clicked, then the history.replace() method should be called with the argument \"/\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP69UB1_TEST_121",
+      "evaluation_result": "CORRECT",
+      "title": "When a valid username and password are provided and the Login button is clicked, then the page should be navigated to Home Route and should consist of an HTML main heading element with text content as \"Daily Mood Tracker\"",
+      "errorMessages": []
+    }
+  ]
+}
