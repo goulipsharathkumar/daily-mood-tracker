@@ -1,0 +1,130 @@
+.header-nav {
+  background: linear-gradient(90deg, #2a2838, #343243);
+  padding: 0 32px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid rgba(255, 190, 56, 0.1);
+}
+
+.header-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-logo-link {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+}
+
+.header-logo-img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ffbe38;
+  box-shadow: 0 0 12px rgba(255, 190, 56, 0.3);
+}
+
+.header-brand {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: 0.3px;
+  background: linear-gradient(90deg, #ffffff, #cbd5e1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.header-link {
+  font-size: 15px;
+  font-weight: 500;
+  color: #cbd5e1;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  position: relative;
+  padding-bottom: 2px;
+}
+
+.header-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #ffbe38, #ff8c00);
+  border-radius: 1px;
+  transition: width 0.2s ease;
+}
+
+.header-link:hover {
+  color: #ffbe38;
+}
+
+.header-link:hover::after {
+  width: 100%;
+}
+
+.logout-btn {
+  background: linear-gradient(135deg, transparent, transparent);
+  border: 1.5px solid #ffbe38;
+  color: #ffbe38;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease,
+    transform 0.15s ease;
+  letter-spacing: 0.3px;
+}
+
+.logout-btn:hover {
+  background: linear-gradient(135deg, #ffbe38, #e6a800);
+  color: #1c1a28;
+  box-shadow: 0 4px 16px rgba(255, 190, 56, 0.35);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 480px) {
+  .header-nav {
+    padding: 0 16px;
+  }
+
+  .header-brand {
+    font-size: 16px;
+  }
+
+  .header-links {
+    gap: 16px;
+  }
+
+  .header-link {
+    font-size: 13px;
+  }
+
+  .logout-btn {
+    padding: 6px 14px;
+    font-size: 13px;
+  }
+}

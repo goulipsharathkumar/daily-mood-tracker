@@ -1,0 +1,146 @@
+.reports-page {
+  min-height: 100vh;
+  background-color: #1c1a28;
+}
+
+.reports-content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 48px 24px;
+  text-align: center;
+}
+
+.reports-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+  position: relative;
+  display: inline-block;
+}
+
+.reports-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, #ffbe38, #ff8c00);
+  border-radius: 2px;
+  margin: 12px auto 48px;
+}
+
+.reports-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 52px;
+}
+
+.report-card {
+  background: linear-gradient(145deg, #3d3a52, #2e2b3e);
+  border-radius: 20px;
+  padding: 32px 20px 24px;
+  width: 165px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid rgba(255, 190, 56, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  transition: transform 0.25s ease, box-shadow 0.25s ease,
+    border-color 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.report-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #ffbe38, #ff8c00);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.report-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 190, 56, 0.3);
+  border-color: rgba(255, 190, 56, 0.3);
+}
+
+.report-card:hover::before {
+  opacity: 1;
+}
+
+.report-emoji-container {
+  width: 76px;
+  height: 76px;
+  background: linear-gradient(135deg, #42404d, #2e2b3e);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(255, 190, 56, 0.2);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  transition: border-color 0.25s ease;
+}
+
+.report-card:hover .report-emoji-container {
+  border-color: rgba(255, 190, 56, 0.6);
+}
+
+.report-emoji-img {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+}
+
+.report-emoji-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #cbd5e1;
+  margin: 0;
+  letter-spacing: 0.3px;
+}
+
+.report-count {
+  font-size: 52px;
+  font-weight: 700;
+  color: #ffbe38;
+  line-height: 1;
+  margin: 0;
+  background: linear-gradient(135deg, #ffbe38, #ff8c00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(145deg, #3d3a52, #2e2b3e);
+  border-radius: 20px;
+  padding: 32px 24px;
+  border: 1px solid rgba(255, 190, 56, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 600px) {
+  .reports-title {
+    font-size: 28px;
+  }
+
+  .report-card {
+    width: 140px;
+    padding: 24px 16px 20px;
+  }
+
+  .report-count {
+    font-size: 40px;
+  }
+}
