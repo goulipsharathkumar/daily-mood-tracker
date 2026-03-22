@@ -1,6 +1,11 @@
 {
   "version": 2,
-  "buildCommand": "react-scripts build",
+  "build": {
+    "env": {
+      "NODE_OPTIONS": "--openssl-legacy-provider",
+      "SKIP_PREFLIGHT_CHECK": "true"
+    }
+  },
   "outputDirectory": "build",
   "rewrites": [
     {
