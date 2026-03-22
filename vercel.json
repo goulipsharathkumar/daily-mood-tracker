@@ -1,5 +1,11 @@
 {
   "version": 2,
+  "build": {
+    "env": {
+      "NODE_VERSION": "16",
+      "NODE_OPTIONS": "--openssl-legacy-provider"
+    }
+  },
   "buildCommand": "npm install && npm run build",
   "outputDirectory": "build",
   "rewrites": [

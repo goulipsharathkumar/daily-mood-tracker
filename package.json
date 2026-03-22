@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "engines": {
-    "node": ">=14"
+    "node": "16.x"
   },
   "dependencies": {
     "@testing-library/jest-dom": "5.11.9",
@@ -72,6 +72,5 @@
       "Firefox ESR",
       "not ie < 11"
     ]
-  },
-  "homepage": "."
+  }
 }
