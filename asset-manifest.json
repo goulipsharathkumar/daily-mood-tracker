@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/daily-mood-tracker/static/css/main.129a3ef6.chunk.css",
+    "main.js": "/daily-mood-tracker/static/js/main.480ae13e.chunk.js",
+    "main.js.map": "/daily-mood-tracker/static/js/main.480ae13e.chunk.js.map",
+    "runtime-main.js": "/daily-mood-tracker/static/js/runtime-main.7bb69ffa.js",
+    "runtime-main.js.map": "/daily-mood-tracker/static/js/runtime-main.7bb69ffa.js.map",
+    "static/js/2.67dfa417.chunk.js": "/daily-mood-tracker/static/js/2.67dfa417.chunk.js",
+    "static/js/2.67dfa417.chunk.js.map": "/daily-mood-tracker/static/js/2.67dfa417.chunk.js.map",
+    "index.html": "/daily-mood-tracker/index.html",
+    "static/css/main.129a3ef6.chunk.css.map": "/daily-mood-tracker/static/css/main.129a3ef6.chunk.css.map",
+    "static/js/2.67dfa417.chunk.js.LICENSE.txt": "/daily-mood-tracker/static/js/2.67dfa417.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7bb69ffa.js",
+    "static/js/2.67dfa417.chunk.js",
+    "static/css/main.129a3ef6.chunk.css",
+    "static/js/main.480ae13e.chunk.js"
+  ]
+}
